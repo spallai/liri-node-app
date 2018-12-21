@@ -1,5 +1,7 @@
 # liri-node-app
 
+Link to screenshots of working app: https://drive.google.com/drive/folders/1iEVl_mPEbmmglUVOTVqP_jescW-8HAA0?usp=sharing
+
 liri-node-app
 LIRI Bot Overview: LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
