@@ -78,7 +78,6 @@ function spotifyThis() {
     }]).then(function (res) {
         if (res.song === "") {
             spotifyThisSong("Ace of Base");
-            //else it will return the correct data for the song title entered
         } else {
             spotifyThisSong(res.song);
         }
@@ -93,13 +92,9 @@ function spotifyThisSong(song) {
         if (error) {
             console.log(error + "\n");
         } else {
-            //Artist Name
             console.log("\nArtist: " + data.tracks.items[0].album.artists[0].name);
-            //Song Name
             console.log("Song: " + data.tracks.items[0].name);
-            //Preview URL
             console.log("Preview URL: " + data.tracks.items[0].preview_url);
-            //Album Name
             console.log("Album: " + data.tracks.items[0].album.name);
         }
     });
