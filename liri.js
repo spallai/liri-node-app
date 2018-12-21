@@ -69,7 +69,7 @@ function concertThis() {
         });
     });
 }
-
+/* Song Section */
 function spotifyThis() {
     inquirer.prompt([{
         type: "input",
@@ -105,6 +105,7 @@ function spotifyThisSong(song) {
     });
 }
 
+/* Movie Section */
 function movieThis() {
     inquirer.prompt([{
         type: "input",
