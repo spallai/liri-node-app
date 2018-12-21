@@ -10,7 +10,6 @@ var spotify = new Spotify(keys.spotify);
 var userQuery = process.argv.slice(3).join(" ");
 var userInput = process.argv[2];
 var fs = require("fs");
-var filename = './random.txt';
 
 inquirer.prompt([{
     type: "list",
